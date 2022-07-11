@@ -110,7 +110,6 @@ header {
   -webkit-backdrop-filter: blur(5px); /* BARU */
   backdrop-filter: blur(10px);
 }
-
 header .navbar-expand-lg {
   padding: 41px 0 35px;
   border-bottom: 0;
@@ -143,6 +142,7 @@ header .navbar .nav-item .nav-link:hover {
   border-bottom: 4px solid #00f700;
   border-radius: 2px;
 }
+
 .navbar-light .navbar-nav .active > .nav-link {
   color: #fdfdfdfb;
   border-bottom: 4px solid #00f700;
