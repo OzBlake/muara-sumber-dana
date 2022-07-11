@@ -139,11 +139,10 @@ header .navbar .nav-item:last-child .nav-link {
 }
 
 header .navbar .nav-item .nav-link:hover {
-  color: #00f700;
+  color: #fdb714;
   border-bottom: 4px solid #00f700;
   border-radius: 2px;
 }
-
 .navbar-light .navbar-nav .active > .nav-link {
   color: #fdfdfdfb;
   border-bottom: 4px solid #00f700;
