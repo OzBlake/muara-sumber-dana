@@ -257,7 +257,7 @@ header .navbar .nav-item .nav-link:hover {
 .tentang-kami .tentang-kami-inner {
   background-color: #ffffff;
   border-radius: 100px;
-   padding: 35px 30px; /* DIUBAH -ASLINYA padding:65px 30px */
+   padding: 36px 30px; /* DIUBAH -ASLINYA padding:65px 30px */
 }
 
 .tentang-kami .owl-carousel .owl-nav button.owl-next {
