@@ -91,11 +91,12 @@ hr {
 /*-- header start --*/
 /* fix */
 header.active {
-  box-shadow: 0 0 4px #4c4d4c5b;
-  margin-top: 0;
-  background-color: #4c4d4c5b;
+  box-shadow: 0 0 4px #000000bb;
+  margin-top: 0 0 auto 0;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
+  -webkit-background-color: #000000bb;
+  background-color: #000000bb;
 }
 /* fix */
 
