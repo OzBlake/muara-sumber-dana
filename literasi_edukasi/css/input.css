@@ -28,6 +28,7 @@ body {
   background-color: #fff;
   font-family: "Cabin Condensed", sans-serif;
 }
+
 body,
 html {
   height: 100%;
@@ -85,16 +86,18 @@ hr {
 /*-- header start --*/
 /* fix */
 header.active {
-  box-shadow: 0 0 4px #4c4d4c5b;
-  margin-top: 0;
-  background-color: #4c4d4c5b;
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
+  box-shadow: 0 0 4px #000000bb;
+  margin-top: 0 0 auto 0;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  -webkit-background-color: #000000bb;
+  background-color: #000000bb;
 }
+/* bg-transparent absolute top-0 left-0 w-full flex items-center z-10 px-4 */
 /* fix */
 
 header.active .navbar-expand-lg {
-  padding: 25px 0;
+  padding: 20px 0;
   border-bottom: 0;
 }
 
@@ -102,22 +105,27 @@ header {
   position: fixed;
   width: 100%;
   z-index: 99;
-  transition: 0.3s;
+  transition: 0.1s;
+  background-color: #000000b2;
+  -webkit-backdrop-filter: blur(5px); /* BARU */
+  backdrop-filter: blur(10px);
 }
 
 header .navbar-expand-lg {
   padding: 41px 0 35px;
-  border-bottom: 1px solid #ffffff;
-  transition: 0.3s;
+  border-bottom: 0;
+  transition: 0.1s;
+  background-color: transparent;
 }
 
 header .navbar .nav-item .nav-link {
-  color: #000000;
+  color: #ffffff;
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
   transition: all 0.3s ease;
   margin-right: 15px;
+  background-color: transparent;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
@@ -131,7 +139,7 @@ header .navbar .nav-item:last-child .nav-link {
 }
 
 header .navbar .nav-item .nav-link:hover {
-  color: #00f700;
+  color: #fdb714;
   border-bottom: 4px solid #00f700;
   border-radius: 2px;
 }
@@ -146,8 +154,9 @@ header .navbar .nav-item .nav-link:hover {
 /*-- header end --*/
 
 /*-- banner start --*/
+
 .banner {
-  background-image: url("../images/banner.jpg");
+  background-image: url("../img/.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -195,38 +204,40 @@ header .navbar .nav-item .nav-link:hover {
 }
 
 .banner .banner-inner .btn:hover {
-  background-color: #00f700;
-  color: #000000;
+  background-color: #ffffff;
+  color: #fdb714;
   border: 3px solid #fdb714;
 }
 
 .banner .banner-inner span a {
   font-size: 18px;
-  color: #00f700;
+  color: #ffffff;
   font-weight: bold;
   text-transform: uppercase;
-  border-bottom: 2px solid #fdb714;
+  border-bottom: 2px solid #ffffff;
   margin-left: 22px;
   transition: 0.6s;
 }
 
 .banner .banner-inner span a:hover {
   color: #fdb714;
-  border-bottom-color: #00f700;
+  border-bottom-color: #fdb714;
 }
 
 /*-- banner end --*/
 
 /*-- construction-companies start --*/
-/*.construction-companies {
+.construction-companies {
   position: relative;
   margin-top: -93px;
 }
+
 .construction-companies figure {
   width: 150px;
   height: 75px;
   margin: 0 auto;
 }
+
 .construction-companies .owl-carousel .owl-item img {
   display: block;
   vertical-align: middle;
@@ -234,18 +245,21 @@ header .navbar .nav-item .nav-link:hover {
   width: 150px;
   margin: 0px auto;
 }
+
 .construction-companies .owl-carousel .owl-dots.disabled,
 .construction-companies .owl-carousel .owl-nav.disabled {
   display: block;
   position: absolute;
   top: 20px;
 }
+
 .construction-companies .construction-companies-inner {
   background-color: #ffffff;
   border-radius: 100px;
   padding: 65px 30px;
 }
- .construction-companies .owl-carousel .owl-nav button.owl-next {
+
+.construction-companies .owl-carousel .owl-nav button.owl-next {
   position: absolute;
   right: -1290px;
   background-color: #bbbbbb;
@@ -254,9 +268,11 @@ header .navbar .nav-item .nav-link:hover {
   height: 40px;
   display: inline-block;
 }
+
 .construction-companies .owl-carousel .owl-nav button.owl-next:hover {
   background-color: #363636;
 }
+
 .construction-companies .owl-carousel .owl-nav button.owl-prev {
   background-color: #bbbbbb;
   border-radius: 50%;
@@ -265,32 +281,36 @@ header .navbar .nav-item .nav-link:hover {
   display: inline-block;
   padding: 0 !important;
 }
+
 .construction-companies .owl-carousel .owl-nav button.owl-prev:hover {
   background-color: #363636;
 }
+
 .construction-companies .owl-carousel .owl-nav button.owl-next span,
 .construction-companies .owl-carousel .owl-nav button.owl-prev span {
   font-size: 40px;
   color: #ffffff;
   line-height: 30px;
 }
+
 .construction-companies .owl-carousel .item .slide {
   width: 70%;
   margin: 0 auto;
 }
+
 .construction-companies button:focus {
   outline: 1px dotted;
   outline: unset;
-} */
+}
 
 /*-- construction-companies end --*/
 
-
 /*-- construction-websites start --*/
-/* .construction-websites {
+.construction-websites {
   margin-top: 15px;
   margin-bottom: 116px;
 }
+
 .construction-websites h2 {
   font-size: 50px;
   color: #000000;
@@ -332,18 +352,19 @@ header .navbar .nav-item .nav-link:hover {
   left: 85px;
   border-radius: 20px;
   border-bottom-left-radius: 0;
-} */
+}
 
 /*-- construction-websites end --*/
 
-/*-- services start --*/
-/* .services {
-  background-color: #f7f7f7;
-  padding: 80px 0;
+/*-- produk start --*/
+.produk {
+  background-color: #5a5a5a4d;
+  padding-top: 10% /* 144px */;
+  padding-bottom: 4rem /* 64px */;
   margin-bottom: 95px;
 }
 
-.services h2 {
+.produk h2 {
   font-size: 50px;
   color: #000000;
   font-weight: bold;
@@ -352,16 +373,16 @@ header .navbar .nav-item .nav-link:hover {
   margin-bottom: 32px;
 }
 
-.services .owl-stage .owl-item {
+.produk .owl-stage .owl-item {
   padding: 0;
   margin-left: -80px;
 }
 
-.services .owl-item .item {
+.produk .owl-item .item {
   height: 100%;
 }
 
-.services .owl-item .item img {
+.produk .owl-item .item img {
   max-height: 100%;
   max-width: 100%;
   height: 360px;
@@ -370,11 +391,11 @@ header .navbar .nav-item .nav-link:hover {
   border-radius: 5px;
 }
 
-.services .item figure {
+.produk .item figure {
   position: relative;
 }
 
-.services .item .content {
+.produk .item .content {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -386,68 +407,68 @@ header .navbar .nav-item .nav-link:hover {
   padding: 185px 45px 57px 75px;
 }
 
-.services .item .content:hover {
+.produk .item .content:hover {
   background-color: #00000033;
   opacity: 1;
 }
 
-.services .item h3 a {
+.produk .item h3 a {
   font-size: 40px;
   color: #ffffff;
   font-weight: bold;
   transition: 0.5s;
 }
 
-.services .item h3 a:hover {
+.produk .item h3 a:hover {
   color: #fdb714;
 }
 
-.services .item h3 {
+.produk .item h3 {
   margin-bottom: 15px;
 }
 
-.services .item p {
+.produk .item p {
   font-size: 18px;
   line-height: 24px;
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.services .carousel {
+.produk .carousel {
   cursor: move;
 }
 
-.services .carousel .row {
+.produk .carousel .row {
   margin: 0;
 }
 
-.services .carousel .row .col-12 {
+.produk .carousel .row .col-12 {
   padding: 0;
 }
 
-.services .owl-carousel .owl-nav.disabled {
+.produk .owl-carousel .owl-nav.disabled {
   display: block;
   text-align: center;
   margin-top: 65px;
 }
 
-.services .owl-dots {
+.produk .owl-dots {
   display: none;
 }
 
-.services .owl-carousel .owl-nav button.owl-prev span {
+.produk .owl-carousel .owl-nav button.owl-prev span {
   color: #ffffff;
   font-size: 28px;
   line-height: 24px;
 }
 
-.services .owl-carousel .owl-nav button.owl-next span {
+.produk .owl-carousel .owl-nav button.owl-next span {
   color: #ffffff;
   font-size: 28px;
   line-height: 24px;
 }
 
-.services .owl-carousel .owl-nav button.owl-next,
+.produk .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev {
   background-color: #c2c2c2;
   padding: 5px 37px !important;
@@ -456,19 +477,19 @@ header .navbar .nav-item .nav-link:hover {
   transition: 0.6s;
 }
 
-.services .owl-carousel .owl-nav button.owl-next:hover,
+.produk .owl-carousel .owl-nav button.owl-next:hover,
 .owl-carousel .owl-nav button.owl-prev:hover {
   background-color: #363636;
 }
 
-.services button:focus {
+.produk button:focus {
   outline: 0 dotted;
   outline: 0;
-} */
+}
 
-/*-- services end --*/
+/*-- produk end --*/
 
-/*-- profile start --*/
+/*-- construuction-features start --*/
 
 .profile {
   margin-bottom: 134px;
@@ -522,22 +543,10 @@ header .navbar .nav-item .nav-link:hover {
   margin-bottom: 0;
 }
 
-/*-- profile end --*/
+/*-- construuction-features end --*/
 
+/*-- portfolio start --*/
 
-/* BARU */
-.pt-36 {
-  padding-top: 9rem; /* 144px */
-  padding: 144px;
-}
-.pt-40 {
-  padding-top: 10rem; /* 160px */
-  padding: 160px;
-}
-/* tambahan baru */
-
-
-/*-- literasi-edukasi start --*/
 .literasi-edukasi {
   padding-bottom: 133px;
 }
@@ -640,9 +649,6 @@ header .navbar .nav-item .nav-link:hover {
 .literasi-edukasi .col-md-12 {
   padding: 0;
 }
-
-/* literasi-edukasi END */
-
 
 @media (max-width: 500px) {
   .literasi-edukasi .gal {
@@ -1359,19 +1365,19 @@ footer .fa-arrow-up:hover {
     line-height: 30px;
   }
 
-  .services {
+  .produk {
     padding: 60px 0;
   }
 
-  .services .owl-stage .owl-item {
+  .produk .owl-stage .owl-item {
     margin-left: -108px;
   }
 
-  .services .owl-item .item img {
+  .produk .owl-item .item img {
     width: 100%;
   }
 
-  .services h2 {
+  .produk h2 {
     font-size: 40px;
     margin-bottom: 25px;
     margin-left: 10%;
@@ -1538,20 +1544,20 @@ footer .fa-arrow-up:hover {
     font-size: 35px;
   }
 
-  .services .item .content {
+  .produk .item .content {
     padding: 150px 30px 0;
   }
 
-  .services .owl-stage .owl-item {
+  .produk .owl-stage .owl-item {
     margin-left: -100px;
     width: 375px !important;
   }
 
-  .services .item h3 a {
+  .produk .item h3 a {
     font-size: 28px;
   }
 
-  .services .item p {
+  .produk .item p {
     font-size: 16px;
   }
 
@@ -1732,7 +1738,7 @@ footer .fa-arrow-up:hover {
     margin-bottom: 35px;
   }
 
-  .services .owl-stage .owl-item {
+  .produk .owl-stage .owl-item {
     margin-left: -108px;
   }
 
@@ -1861,7 +1867,7 @@ footer .fa-arrow-up:hover {
     font-size: 24px;
   }
 
-  .services .owl-stage .owl-item {
+  .produk .owl-stage .owl-item {
     width: 385px !important;
   }
 
@@ -1870,7 +1876,7 @@ footer .fa-arrow-up:hover {
     line-height: 28px;
   }
 
-  .services h2 {
+  .produk h2 {
     font-size: 30px;
     margin-bottom: 35px;
     margin-left: 0;
@@ -2018,7 +2024,7 @@ footer .fa-arrow-up:hover {
     height: 30px;
   }
 
-  .services .owl-stage .owl-item {
+  .produk .owl-stage .owl-item {
     width: 349px !important;
   }
 
