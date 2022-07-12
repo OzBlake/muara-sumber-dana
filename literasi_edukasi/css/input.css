@@ -795,6 +795,16 @@ header .navbar .nav-item .nav-link:hover {
 }
 
 /*==*/
+/* BARU */
+.pt-36 {
+  padding-top: 9rem; /* 144px */
+  padding: 144px;
+}
+.pt-40 {
+  padding-top: 10rem; /* 160px */
+  padding: 160px;
+}
+/* tambahan baru */
 
 .literasi-edukasi .image {
   display: block;
