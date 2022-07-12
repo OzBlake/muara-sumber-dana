@@ -85,18 +85,16 @@ hr {
 /*-- header start --*/
 /* fix */
 header.active {
-  box-shadow: 0 0 4px #000000bb;
-  margin-top: 0 0 auto 0;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  -webkit-background-color: #000000bb;
-  background-color: #000000bb;
+  box-shadow: 0 0 4px #4c4d4c5b;
+  margin-top: 0;
+  background-color: #4c4d4c5b;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
-/* bg-transparent absolute top-0 left-0 w-full flex items-center z-10 px-4 */
 /* fix */
 
 header.active .navbar-expand-lg {
-  padding: 20px 0;
+  padding: 25px 0;
   border-bottom: 0;
 }
 
@@ -104,27 +102,22 @@ header {
   position: fixed;
   width: 100%;
   z-index: 99;
-  transition: 0.1s;
-  background-color: transparent;
-  -webkit-backdrop-filter: blur(5px); /* BARU */
-  backdrop-filter: blur(10px);
+  transition: 0.3s;
 }
 
 header .navbar-expand-lg {
   padding: 41px 0 35px;
-  border-bottom: 0;
-  transition: 0.1s;
-  background-color: transparent;
+  border-bottom: 1px solid #ffffff;
+  transition: 0.3s;
 }
 
 header .navbar .nav-item .nav-link {
-  color: #ffffff;
+  color: #000000;
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
   transition: all 0.3s ease;
   margin-right: 15px;
-  background-color: transparent;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
@@ -138,7 +131,7 @@ header .navbar .nav-item:last-child .nav-link {
 }
 
 header .navbar .nav-item .nav-link:hover {
-  color: #fdb714;
+  color: #00f700;
   border-bottom: 4px solid #00f700;
   border-radius: 2px;
 }
