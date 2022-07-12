@@ -1219,6 +1219,7 @@ footer iframe {
 .footer-bottom {
   text-align: center;
   padding: 31px;
+  background-color: grey; /* baru tambahan background */
 }
 
 footer span i {
