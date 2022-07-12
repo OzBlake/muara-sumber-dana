@@ -146,7 +146,6 @@ header .navbar .nav-item .nav-link:hover {
 /*-- header end --*/
 
 /*-- banner start --*/
-
 .banner {
   background-image: url("../images/banner.jpg");
   background-repeat: no-repeat;
@@ -219,17 +218,15 @@ header .navbar .nav-item .nav-link:hover {
 /*-- banner end --*/
 
 /*-- construction-companies start --*/
-.construction-companies {
+/*.construction-companies {
   position: relative;
   margin-top: -93px;
 }
-
 .construction-companies figure {
   width: 150px;
   height: 75px;
   margin: 0 auto;
 }
-
 .construction-companies .owl-carousel .owl-item img {
   display: block;
   vertical-align: middle;
@@ -237,21 +234,18 @@ header .navbar .nav-item .nav-link:hover {
   width: 150px;
   margin: 0px auto;
 }
-
 .construction-companies .owl-carousel .owl-dots.disabled,
 .construction-companies .owl-carousel .owl-nav.disabled {
   display: block;
   position: absolute;
   top: 20px;
 }
-
 .construction-companies .construction-companies-inner {
   background-color: #ffffff;
   border-radius: 100px;
   padding: 65px 30px;
 }
-
-.construction-companies .owl-carousel .owl-nav button.owl-next {
+ .construction-companies .owl-carousel .owl-nav button.owl-next {
   position: absolute;
   right: -1290px;
   background-color: #bbbbbb;
@@ -260,11 +254,9 @@ header .navbar .nav-item .nav-link:hover {
   height: 40px;
   display: inline-block;
 }
-
 .construction-companies .owl-carousel .owl-nav button.owl-next:hover {
   background-color: #363636;
 }
-
 .construction-companies .owl-carousel .owl-nav button.owl-prev {
   background-color: #bbbbbb;
   border-radius: 50%;
@@ -273,36 +265,32 @@ header .navbar .nav-item .nav-link:hover {
   display: inline-block;
   padding: 0 !important;
 }
-
 .construction-companies .owl-carousel .owl-nav button.owl-prev:hover {
   background-color: #363636;
 }
-
 .construction-companies .owl-carousel .owl-nav button.owl-next span,
 .construction-companies .owl-carousel .owl-nav button.owl-prev span {
   font-size: 40px;
   color: #ffffff;
   line-height: 30px;
 }
-
 .construction-companies .owl-carousel .item .slide {
   width: 70%;
   margin: 0 auto;
 }
-
 .construction-companies button:focus {
   outline: 1px dotted;
   outline: unset;
-}
+} */
 
 /*-- construction-companies end --*/
 
+
 /*-- construction-websites start --*/
-.construction-websites {
+/* .construction-websites {
   margin-top: 15px;
   margin-bottom: 116px;
 }
-
 .construction-websites h2 {
   font-size: 50px;
   color: #000000;
@@ -344,12 +332,12 @@ header .navbar .nav-item .nav-link:hover {
   left: 85px;
   border-radius: 20px;
   border-bottom-left-radius: 0;
-}
+} */
 
 /*-- construction-websites end --*/
 
 /*-- services start --*/
-.services {
+/* .services {
   background-color: #f7f7f7;
   padding: 80px 0;
   margin-bottom: 95px;
@@ -476,11 +464,11 @@ header .navbar .nav-item .nav-link:hover {
 .services button:focus {
   outline: 0 dotted;
   outline: 0;
-}
+} */
 
 /*-- services end --*/
 
-/*-- construuction-features start --*/
+/*-- profile start --*/
 
 .profile {
   margin-bottom: 134px;
@@ -534,9 +522,7 @@ header .navbar .nav-item .nav-link:hover {
   margin-bottom: 0;
 }
 
-/*-- construuction-features end --*/
-
-/*-- portfolio start --*/
+/*-- profile end --*/
 
 
 /* BARU */
@@ -550,6 +536,8 @@ header .navbar .nav-item .nav-link:hover {
 }
 /* tambahan baru */
 
+
+/*-- literasi-edukasi start --*/
 .literasi-edukasi {
   padding-bottom: 133px;
 }
@@ -652,6 +640,9 @@ header .navbar .nav-item .nav-link:hover {
 .literasi-edukasi .col-md-12 {
   padding: 0;
 }
+
+/* literasi-edukasi END */
+
 
 @media (max-width: 500px) {
   .literasi-edukasi .gal {
